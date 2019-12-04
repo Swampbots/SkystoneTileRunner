@@ -19,7 +19,6 @@ import org.openftc.easyopencv.OpenCvWebcam;
 @Autonomous(name = "Test: External Camera", group = "Testing")
 public class TestExternalCamera extends LinearOpMode {
 
-    SLICBotHardware hardware = new SLICBotHardware();
     OpenCvWebcam webcam;
 
     public void runOpMode() {
